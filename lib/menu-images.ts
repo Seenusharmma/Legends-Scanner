@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { createHash } from "node:crypto";
 import type { MenuImageInfo } from "@/data/menu";
 
 /**
@@ -66,9 +67,12 @@ function resolveImage(fileName: string, alt: string): MenuImageInfo | null {
   try {
     const buffer = fs.readFileSync(filePath);
     const size = readPngSize(buffer) ?? readJpegSize(buffer);
+    // The URL changes when an image is replaced, invalidating browser and
+    // Next Image optimizer caches that would otherwise keep the old file.
+    const version = createHash("sha1").update(buffer).digest("hex").slice(0, 12);
 
     return {
-      src: `/menu/${fileName}`,
+      src: `/menu/${fileName}?v=${version}`,
       width: size?.width ?? FALLBACK_SIZE.width,
       height: size?.height ?? FALLBACK_SIZE.height,
       alt,

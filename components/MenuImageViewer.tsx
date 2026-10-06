@@ -199,6 +199,7 @@ export default function MenuImageViewer({
                 width={currentImage!.width}
                 height={currentImage!.height}
                 sizes="100vw"
+                unoptimized
                 priority
                 className="mx-auto !h-auto max-w-none"
                 style={{ width: `${scale * 100}%` }}

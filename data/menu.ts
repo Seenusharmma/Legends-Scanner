@@ -35,7 +35,7 @@ export const foodMenu: MenuCategory[] = [
     id: "veg-starters",
     category: "Veg Starters",
     items: [
-      "Crispy Corn (Same Quality)",
+      "Crispy Corn",
       "Cheese Spring Roll",
       "Hara Shami Kebab",
       "Paneer Kodiyala Bunch",
@@ -66,7 +66,7 @@ export const foodMenu: MenuCategory[] = [
     category: "Non-Veg Main Course",
     items: [
       "Mango Fish Curry",
-      "Karachi Creamy Chicken (Same Quality)",
+      "Karachi Creamy Chicken",
       "Chicken in Hot Garlic Sauce",
     ],
   },
@@ -94,15 +94,10 @@ export const foodMenu: MenuCategory[] = [
     id: "desserts",
     category: "Desserts",
     items: [
-      "Gajar Halwa (No Cardamom)",
+      "Gajar Halwa",
       "Chocolate Brownie",
       "Chocolate & Vanilla Ice Cream",
     ],
-  },
-  {
-    id: "cake",
-    category: "Cake",
-    items: ["15 KG Customized Cake"],
   },
 ];
 
@@ -110,7 +105,12 @@ export const beverageMenu: MenuCategory[] = [
   {
     id: "beer",
     category: "Beer",
-    items: ["Any 4 as per availability"],
+    items: [
+      "Hefeweizen ",
+      "Modern wheat ale",
+      "West coast ipa",
+      "Belgian wit"
+    ],
   },
   {
     id: "mocktails",
@@ -130,7 +130,7 @@ export const beverageMenu: MenuCategory[] = [
   {
     id: "rum",
     category: "Rum",
-    items: ["Old Monk", "Bacardi Black", "Bacardi Carta Blanca"],
+    items: ["Old Monk", "Bacardi Carta Blanca"],
   },
   {
     id: "wine",
