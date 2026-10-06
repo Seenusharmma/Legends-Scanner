@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------------
+   Legends Microbrewery design tokens
+   --------------------------------------------------------------- */
+@theme inline {
+  /* Brand colours */
+  --color-burgundy: #7a1735;
+  --color-burgundy-dark: #4a1024;
+  --color-gold: #c6a15b;
+  --color-gold-light: #e3c77a;
+  --color-cream: #fffdf9;
+  --color-ink: #2b2020;
+
+  /* Typography */
+  --font-display: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-body: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  /* Keeps in-page anchors clear of the sticky tab bar */
+  scroll-padding-top: 5.5rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  text-rendering: optimizeLegibility;
+}
+
+/* Subtle reveal used on menu sections */
+@keyframes legends-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.reveal {
+  animation: legends-reveal 0.4s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal {
+    animation: none;
+  }
+}
+
+/* Accessible focus ring in brand gold */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+/* Native dialog styling for the menu image viewer */
+dialog::backdrop {
+  background: rgba(30, 8, 16, 0.88);
+}
