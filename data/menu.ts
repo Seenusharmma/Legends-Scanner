@@ -35,7 +35,7 @@ export const foodMenu: MenuCategory[] = [
     id: "veg-starters",
     category: "Veg Starters",
     items: [
-      "Chilly Panner",
+      "Chilly Paneer",
       "Cheese Veg Spring Roll",
       "Crispy Corn",
       "Hara Shame Kebab",
