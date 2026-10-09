@@ -35,45 +35,42 @@ export const foodMenu: MenuCategory[] = [
     id: "veg-starters",
     category: "Veg Starters",
     items: [
+      "Chilly Panner",
+      "Cheese Veg Spring Roll",
       "Crispy Corn",
-      "Cheese Spring Roll",
-      "Hara Shami Kebab",
-      "Paneer Kodiyala Bunch",
+      "Hara Shame Kebab",
     ],
   },
   {
     id: "non-veg-starters",
     category: "Non-Veg Starters",
     items: [
+      "Punjabi Tandoori Chicken",
       "Egg Chilli",
-      "Fish Manchurian",
-      "Angara Murgh Tikka",
-      "Chicken Popcorn",
+      "Chintamani Chicken",
     ],
   },
   {
     id: "veg-main-course",
     category: "Veg Main Course",
     items: [
-      "Dal Bukhara",
-      "Mushroom in Thai Basil Sauce",
-      "Paneer Butter Masala",
-      "Penne Arrabbiata Vegetables",
+      "Dal Tadka",
+      "Nizami Handi",
+      "Paneer Labbadar",
     ],
   },
   {
     id: "non-veg-main-course",
     category: "Non-Veg Main Course",
     items: [
-      "Mango Fish Curry",
-      "Karachi Creamy Chicken",
-      "Chicken in Hot Garlic Sauce",
+      "Butter Chicken",
+      "Egg Masala",
     ],
   },
   {
     id: "veg-pizza",
     category: "Veg Pizza",
-    items: ["Garden Veg Pizza"],
+    items: ["Classic Margar"],
   },
   {
     id: "accompaniments",
@@ -83,20 +80,16 @@ export const foodMenu: MenuCategory[] = [
   {
     id: "staples",
     category: "Staples",
-    items: ["Naan / Roti", "Steamed Rice", "Veg Hakka Noodles", "Chicken Biryani"],
+    items: ["Naan / Roti", "Jeera Pulav", "Veg Hakka Noodles", "Chicken Biryani"],
   },
-  {
-    id: "salad",
-    category: "Salad",
-    items: ["Russian Salad"],
-  },
+  { id: "salad", category: "Salad", items: ["Caesar Salad"] },
   {
     id: "desserts",
     category: "Desserts",
     items: [
-      "Gajar Halwa",
-      "Chocolate Brownie",
-      "Chocolate & Vanilla Ice Cream",
+      "Tres Leches",
+      "Chocolate Browni",
+      "Ice Cream",
     ],
   },
 ];
@@ -106,10 +99,10 @@ export const beverageMenu: MenuCategory[] = [
     id: "beer",
     category: "Beer",
     items: [
-      "Hefeweizen ",
-      "Modern wheat ale",
-      "West coast ipa",
-      "Belgian wit"
+      "Japanese Lager",
+      "Hefeweizen",
+      "Modern Wheat Ale",
+      "West Coast IPA",
     ],
   },
   {
@@ -119,51 +112,22 @@ export const beverageMenu: MenuCategory[] = [
       "Berry Rush",
       "Virgin Pina Colada",
       "Virgin Mojito",
-      "Blue Lagoon",
+      "Guava Mary",
     ],
-  },
-  {
-    id: "vodka",
-    category: "Vodka",
-    items: ["Magic Moment Verve", "Skyy"],
-  },
-  {
-    id: "rum",
-    category: "Rum",
-    items: ["Old Monk", "Bacardi Carta Blanca"],
   },
   {
     id: "wine",
     category: "Wine",
-    items: ["Domestic Red Wine", "Domestic White Wine"],
-  },
-  {
-    id: "whiskey",
-    category: "Whiskey",
-    items: ["Teachers Highland Cream", "Paul John Nirvana"],
-  },
-  {
-    id: "gin",
-    category: "Gin",
-    items: ["Roulette Gin", "Beefeater"],
-  },
-  {
-    id: "cocktails",
-    category: "Cocktails",
-    items: [
-      "Whiskey Sour & Smash",
-      "Red Wine Sangria",
-      "Cosmopolitan",
-    ],
-  },
-  {
-    id: "brandy",
-    category: "Brandy",
-    items: ["Mansion House"],
+    items: ["Sula Red Wine", "Sdu White Wine"],
   },
   {
     id: "soft-beverages",
     category: "Soft Beverages",
-    items: ["Canned Juices", "Coke", "Soda", "Sprite"],
+    items: ["Coke", "Soda", "Sprite"],
+  },
+  {
+    id: "canned-juice",
+    category: "Canned Juice",
+    items: ["Cranberry", "Mango", "Pineapple", "Orange", "Apple", "Litchi"],
   },
 ];
