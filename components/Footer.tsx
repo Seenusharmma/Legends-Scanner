@@ -19,10 +19,6 @@ export default function Footer() {
           <span className="h-px flex-1 bg-gold/70" />
         </div>
 
-        <p className="mt-4 text-[0.78rem] tracking-[0.22em] text-gold-light sm:text-sm">
-          Food &bull; Beer &bull; Cocktails &bull; Experiences
-        </p>
-
         <p className="mt-6 text-xs text-cream/75 sm:text-[0.8rem]">
           &copy; 2026 Legends Microbrewery
         </p>

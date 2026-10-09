@@ -5,7 +5,7 @@ import BrandMark from "./BrandMark";
  */
 export default function MenuHeader() {
   return (
-    <header className="relative overflow-hidden bg-burgundy text-cream">
+    <header className="relative overflow-hidden bg-burgundy text-cream rounded-b-[80px]">
       {/* Soft decorative rings */}
       <svg
         aria-hidden="true"

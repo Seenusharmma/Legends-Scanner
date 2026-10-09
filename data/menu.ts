@@ -56,7 +56,7 @@ export const foodMenu: MenuCategory[] = [
     items: [
       "Dal Tadka",
       "Nizami Handi",
-      "Paneer Labbadar",
+      "Paneer Lababdar",
     ],
   },
   {
@@ -70,7 +70,7 @@ export const foodMenu: MenuCategory[] = [
   {
     id: "veg-pizza",
     category: "Veg Pizza",
-    items: ["Classic Margar"],
+    items: ["Classic Margarita Pizza"],
   },
   {
     id: "accompaniments",
@@ -88,7 +88,7 @@ export const foodMenu: MenuCategory[] = [
     category: "Desserts",
     items: [
       "Tres Leches",
-      "Chocolate Browni",
+      "Chocolate Brownie",
       "Ice Cream",
     ],
   },
