@@ -87,12 +87,8 @@ export const foodMenu: MenuCategory[] = [
       "Butter Chicken",
       "Chicken Biryani",
       "Chicken Fried Rice",
+      "Assorted Bread",
     ],
-  },
-  {
-    id: "breads",
-    category: "Breads",
-    items: ["Assorted Bread"],
   },
    {
     id: "Salads",

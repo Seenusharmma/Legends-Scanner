@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Montserrat, Playfair_Display } from "next/font/google";
 import "./globals.css";
+import SplashScreen from "@/components/SplashScreen";
 
 const playfair = Playfair_Display({
   subsets: ["latin"],
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         >
           Skip to menu content
         </a>
+        <SplashScreen />
         {children}
       </body>
     </html>
