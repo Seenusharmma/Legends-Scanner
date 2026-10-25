@@ -93,6 +93,18 @@ dialog::backdrop {
   animation: welcome-enter 550ms cubic-bezier(.2,.75,.25,1) both;
 }
 
+.welcome-card-bg {
+  width: min(96vw, 720px);
+  min-height: min(90vh, 720px);
+  padding: clamp(1rem, 3vw, 1.5rem);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
 .welcome-card::before,
 .welcome-card::after {
   position: absolute;
@@ -113,6 +125,11 @@ dialog::backdrop {
   max-height: 6.5rem;
   margin: 0 auto;
   object-fit: contain;
+}
+
+.welcome-logo-large {
+  width: min(100%, 26rem);
+  max-height: 14rem;
 }
 
 .welcome-divider {
@@ -191,6 +208,14 @@ dialog::backdrop {
   letter-spacing: 0.08em;
   cursor: pointer;
   transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.welcome-continue-small {
+  margin-top: auto;
+  width: auto;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
 }
 
 .welcome-continue:hover {
