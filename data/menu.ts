@@ -104,16 +104,181 @@ export const foodMenu: MenuCategory[] = [
 
 export const beverageMenu: MenuCategory[] = [
   {
-    id: "Craft Beers",
-    category: "Craft Beers",
+    id: "American & Irish Whiskey",
+    category: "American & Irish Whiskey",
     items: [
-      "Belgian Wit",
-      "Hefeweizen",
-      "Marzen Lager",
-      "Japanese Lager",
-       "Maxican Lager",
-      "Neipa",
-       "West Coast IPA",
+      "Jim Beam White",
+      "Jameson Irish",
+      "Jim Beam Black",
+    ],
+  },
+  {
+    id: "Blended Scotch Whisky",
+    category: "Blended Scotch Whisky",
+    items: [
+      "Chivas Regal 12 YO",
+      "J.W Black Label",
+      "Ballantine's Finest",
+      "Dewar's 12 YO",
+      "100 Pipers",
+      "100 Pipers Blended Malt",
+      "Dewar's White Label",
+      "Teacher's Highland Cream",
+      "Black & White",
+      "Black Dog Black",
+    ],
+  },
+  {
+    id: "Single Malts",
+    category: "Single Malts",
+    items: [
+      "The Glenlivet 12 YO",
+      "Amrut Fusion",
+      "Paul John Nirvana",
+      "Indri",
+    ],
+  },
+  {
+    id: "Tequila",
+    category: "Tequila",
+    items: [
+      "Camino Blanco",
+      "Camino Gold",
+    ],
+  },
+  {
+    id: "Vodka",
+    category: "Vodka",
+    items: [
+      "Absolut",
+      "Ciroc",
+      "Grey Goose",
+      "Skyy",
+      "U'Luvka",
+      "Ketel One",
+      "Smirnoff Orange",
+    ],
+  },
+  {
+    id: "Rum",
+    category: "Rum",
+    items: [
+      "Bacardi Carta Blanca",
+      "Bacardi 4 YO",
+      "Bacardi Black",
+      "Old Monk Coffee",
+      "Old Monk Supreme",
+    ],
+  },
+  {
+    id: "Gin",
+    category: "Gin",
+    items: [
+      "Beefeater",
+      "Bombay Sapphire Gin",
+      "Roku",
+      "Bulldog",
+      "Tanqueray",
+      "Gordon's",
+      "Jaisalmer",
+    ],
+  },
+  {
+    id: "Liqueurs",
+    category: "Liqueurs",
+    items: [
+      "Jagermeister Ice Cold",
+    ],
+  },
+  {
+    id: "Red Wine",
+    category: "Red Wine",
+    items: [
+      "Jacob's Creek Classic Shiraz Cabernet",
+      "Sula Shiraz Cabernet",
+    ],
+  },
+  {
+    id: "Champagne & Sparklings",
+    category: "Champagne & Sparklings",
+    items: [
+      "Sula Brut Sparkling Btl",
+    ],
+  },
+  {
+    id: "White Wine",
+    category: "White Wine",
+    items: [
+      "Jacob's Creek Chardonnay",
+      "Sula Chenin Blanc",
+    ],
+  },
+  {
+    id: "Rose Wine",
+    category: "Rose Wine",
+    items: [
+      "The Source Grenache Rose",
+    ],
+  },
+  {
+    id: "Whisky Cocktails",
+    category: "Whisky Cocktails",
+    items: [
+      "Kings Wood",
+      "The First Sip of Legends",
+      "Whiskey Sour",
+      "Whiskey Smash",
+    ],
+  },
+  {
+    id: "Gin Cocktails",
+    category: "Gin Cocktails",
+    items: [
+      "Queen Refresher",
+      "Imperial Infusion",
+      "Tom Collins",
+      "Gimlet",
+    ],
+  },
+  {
+    id: "Vodka Cocktails",
+    category: "Vodka Cocktails",
+    items: [
+      "Forbidden Orchard",
+      "Cosmopolitan",
+      "Sex on the Beach",
+      "Screwdriver",
+    ],
+  },
+  {
+    id: "Rum Cocktails",
+    category: "Rum Cocktails",
+    items: [
+      "Midnight Imli",
+      "Mojito",
+      "Daiquiri",
+      "Cuba Libre",
+    ],
+  },
+  {
+    id: "Tequila Cocktails",
+    category: "Tequila Cocktails",
+    items: [
+      "Pineapple Chilli Picante",
+      "Rasam Picante",
+      "Margarita",
+      "Smoked Mango Ritual",
+    ],
+  },
+  {
+    id: "Mocktails",
+    category: "Mocktails",
+    items: [
+      "Crimson Berry Lychee",
+      "Berry Rush",
+      "Tropic Indulgence",
+      "Guava Mary",
+      "Virgin Mojito",
     ],
   },
 ];

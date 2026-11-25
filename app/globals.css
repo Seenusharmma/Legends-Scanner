@@ -250,8 +250,8 @@ dialog::backdrop {
   position: relative;
   display: grid;
   place-items: center;
-  width: clamp(160px, 40vw, 260px);
-  height: clamp(160px, 40vw, 260px);
+  width: clamp(200px, 50vw, 320px);
+  height: clamp(200px, 50vw, 320px);
 }
 
 .splash-ring {
@@ -267,8 +267,8 @@ dialog::backdrop {
 }
 
 .splash-ring-delayed {
-  width: 85%;
-  height: 85%;
+  width: 88%;
+  height: 88%;
   border-top-color: var(--color-burgundy);
   border-right-color: var(--color-burgundy);
   animation-direction: reverse;
@@ -276,8 +276,8 @@ dialog::backdrop {
 }
 
 .splash-logo {
-  width: clamp(110px, 28vw, 180px);
-  height: clamp(110px, 28vw, 180px);
+  width: clamp(140px, 36vw, 240px);
+  height: clamp(140px, 36vw, 240px);
   object-fit: contain;
   animation: splash-pulse 1.6s ease-in-out infinite;
   filter: drop-shadow(0 12px 30px rgb(74 16 36 / 16%));

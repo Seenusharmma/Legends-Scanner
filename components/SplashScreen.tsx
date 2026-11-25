@@ -24,10 +24,10 @@ export default function SplashScreen() {
         <Image
           alt="Logo"
           className="splash-logo"
-          height={512}
+          height={640}
           priority
           src="/logo.png"
-          width={512}
+          width={640}
         />
       </div>
     </div>
