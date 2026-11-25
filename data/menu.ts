@@ -312,4 +312,17 @@ export const beverageMenu: MenuCategory[] = [
       "Virgin Mojito",
     ],
   },
+  {
+    id: " CraftBeer",
+    category: "CraftBeer",
+    items: [
+      "JAPANESE LAGER",
+      "MEXICAN LAGER",
+      "BELGIAN WIT",
+      "HEFEWEIZEN",
+      "MARZEN LAGER",
+      "WEST COAST IPA",
+      "NEIPA"
+    ]
+  }
 ];
