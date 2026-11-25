@@ -19,8 +19,8 @@
 
 html {
   scroll-behavior: smooth;
-  /* Keeps in-page anchors clear of the sticky tab bar */
-  scroll-padding-top: 5.5rem;
+  /* Keeps in-page anchors clear of the sticky tabs and filter bar */
+  scroll-padding-top: 10rem;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -61,6 +61,21 @@ body {
 :focus-visible {
   outline: 2px solid var(--color-gold);
   outline-offset: 2px;
+}
+
+/* Slim scrollbar for the horizontal category chip rail */
+.filter-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(198 161 91 / 55%) transparent;
+}
+
+.filter-scroll::-webkit-scrollbar {
+  height: 4px;
+}
+
+.filter-scroll::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background: rgb(198 161 91 / 55%);
 }
 
 .splash-backdrop {
