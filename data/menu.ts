@@ -29,76 +29,107 @@ export interface MenuImageInfo {
   /** Descriptive alt text. */
   alt: string;
 }
-
 export const foodMenu: MenuCategory[] = [
   {
     id: "veg-starters",
     category: "Veg Starters",
     items: [
-      "Hara Shami Kebab",
-      "Palak Papdi Kebab",
-      "Curry Leaf Paneer",
-      "Dahi Kebab",
       "Crispy Corn",
-      "Paneer Tikka",
-      "Veg Cheese Spring Roll",
       "Chilli Paneer",
+      "Paneer Ghee Roast",
+      "Cheesy Nachos",
       "Mala Mushroom",
-      "Creamy Cheese Dumpling",
-      "Masala Peanut",
     ],
   },
   {
     id: "non-veg-starters",
     category: "Non-Veg Starters",
     items: [
-      "Angara Murgh Tikka",
-      "Chicken Ghee Roast",
-      "Peri-Peri Chicken Skewers",
-      "Murgh Kali Mirch",
-      "Mala Chicken",
       "Chilli Chicken",
-      "Chicken Jhol Momo",
-      "Creamy Coriander Chicken",
-      "Tawa Fish (Basa)",
-      "BBQ Buffalo Wings",
-      "Chicken Popcorn",
-      "Chicken Mini Sausages",
+      "Peri Peri Chicken",
+      "Tawa Fish Fry",
+      "Fish Tikka",
+      "Andhra Style Mutton",
+      "Chilli Prawns",
     ],
   },
   {
     id: "veg-main-course",
     category: "Veg Main Course",
     items: [
-      "Dal Bukhara",
-      "Paneer Lababdar",
-      "Nizami Handi",
-      "Thai Green Curry",
-      "Veg Biryani",
-      "Veg Fried Rice",
+      "Dal Tadka",
+      "Paneer Butter Masala",
+      "Kadhai Paneer",
+      "Mushroom in Thai Basil Sauce",
+      "Exotic Vegetables in Garlic Sauce",
     ],
   },
   {
     id: "non-veg-main-course",
     category: "Non-Veg Main Course",
     items: [
-      "Chicken Tikka Masala",
-      "Punjabi Kadhai Murgh",
       "Butter Chicken",
-      "Chicken Biryani",
-      "Chicken Fried Rice",
-      "Assorted Bread",
+      "Penne Alfredo Chicken",
+      "Chicken in Schezwan Sauce",
+      "Karachi Creamy Chicken Curry",
+      "Thai Red Curry Chicken",
     ],
   },
-   {
+  {
     id: "Salads",
     category: "Salads",
-    items: ["Caesar Salad", "Green Salad"],
+    items: [
+      "Green Salad",
+    ],
+  },
+  {
+    id: "staples",
+    category: "Staples",
+    items: [
+      "Naan/Roti",
+      "Veg Biryani",
+      "Chicken Fried Rice",
+      "Chicken Hakka Noodles",
+      "Legends Mutton Biryani",
+    ],
+  },
+  {
+    id: "accompaniments",
+    category: "Accompaniments",
+    items: [
+      "Curd",
+      "Mint Chutney",
+      "Raita",
+      "Pickle",
+      "Papad",
+    ],
   },
   {
     id: "Desserts",
     category: "Desserts",
-    items: ["Gulab Jamun", "Gajar Ka Halwa", "Tres Leches", "Chocolate IceCream Brownie"],
+    items: [
+      "Chocolate Brownie",
+      "Gulab Jamun",
+      "Tres Leches",
+      "Ice Cream",
+      "Gajar Halwa",
+    ],
+  },
+  {
+    id: "pizzeria-veg",
+    category: "Pizzeria Veg",
+    items: [
+      "Paneer Tikka Pizza",
+      "Classic Margherita",
+    ],
+  },
+  {
+    id: "pizzeria-non-veg",
+    category: "Pizzeria Non-Veg",
+    items: [
+      "Peri Peri Pulled Chicken Pizza",
+      "Chicken Tikka Pizza",
+    ],
   },
 ];
 
